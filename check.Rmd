@@ -1,0 +1,9 @@
+
+```{r }
+library(data.table)
+library(forcats)
+fread(input = "toto.csv")
+x <- data.table(x = 1:10, y = 2:11L)
+data.table::fread(tz = "Europe/London", fill = TRUE, key = 0L)
+```
+
